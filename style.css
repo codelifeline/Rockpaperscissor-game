@@ -1,0 +1,55 @@
+body {
+    font-size: 15pt;
+}
+
+*{
+  margin:0;
+  padding:0;
+  color:white;
+  background-color: black ;
+}
+
+h1{
+  text-align: center;
+  font-size:28px;
+  margin:30px;
+}
+
+img{
+  height:100px;
+  width:100px;
+  border:2px solid white;
+  border-radius:50px;
+  padding: 0px;
+  margin:5px;
+}
+
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span{
+  display:flex;
+  justify-content: center;
+  font-size:14px;
+}
+
+p{
+  text-align: center;
+  margin:20px;
+  font-weight: bold;
+}
+
+h3{
+  text-align: center;
+  margin:10px;
+}
+
+img:hover{
+  height:110px;
+  width:110px;
+  border-radius:60px;
+}
